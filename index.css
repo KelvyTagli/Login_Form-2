@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    background-image:url(https://wallpaperaccess.com/full/3915826.jpg);
+    font-family:Raleway,'sans-serif' ;
+}
+
+.background-screen{
+    position: absolute;
+    border: 1px solid #000;
+    border-radius: 8px;
+    width: 400px;
+    height: 710px;
+    box-shadow: 0px 10px 40px ;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+fieldset{
+    background-color: #fff;
+    position: relative;
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    width: 300px;
+    margin-top: 20%;
+    margin-left: 7%;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px;
+}
+
+fieldset h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    pointer-events: none;
+}
+
+fieldset .box-user{
+    position: relative;
+    margin-bottom: 4%;
+}
+
+fieldset .box-user input{
+    font-size: 14px;
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid ;
+    background-color: transparent;
+}
+
+fieldset .box-user label{
+    position: absolute;
+    top: 10px;
+    left:0;
+    transition: .5s;
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.box-user input:focus~label,
+.box-user input:valid~label{
+    top: -10px;
+    left: 0;
+    color: #0552f9;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+fieldset .box-password{
+    position: relative;
+}
+
+fieldset .box-password input{
+    font-size: 14px;
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    outline: none;
+    border: none;
+    border-bottom:1px solid ;
+    background-color: transparent;
+}
+
+fieldset .box-password label{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    transition: .5s;
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.box-password input:focus~label,
+.box-password input:valid~label{
+    top: -10px;
+    left: 0;
+    color: #0552f9;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+fieldset .box-remember-esqueceu_senha{
+    position: relative;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+fieldset .box-remember-esqueceu_senha input{
+    position: absolute;
+    top: -3px;
+    left: 0;
+    cursor: pointer;
+}
+
+fieldset .box-remember-esqueceu_senha label{
+    margin-left: 10%;
+}
+
+fieldset .box-remember-esqueceu_senha a{
+    text-decoration: none;
+    color: black;
+}
+
+.box-remember-esqueceu_senha a:hover{
+    color: blue;
+    font-weight: 700;
+}
+
+fieldset .button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+fieldset .button button{
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    outline: none;
+    font-weight: 800;
+    letter-spacing: 3px;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+.button button:hover{
+    color: white;
+    background-color: #04154a;
+    box-shadow: 0px 10px 40px -12px #04154a;
+}
+
+fieldset .new-account{
+    position: relative;
+}
+
+fieldset .new-account a{
+    color: black;
+    text-decoration: none;
+}
+
+.new-account a:hover{
+    color: #0552f9;
+    font-weight: 700;
+}
