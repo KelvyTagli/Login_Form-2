@@ -126,6 +126,7 @@ fieldset .box-remember-esqueceu_senha label{
 fieldset .box-remember-esqueceu_senha a{
     text-decoration: none;
     color: black;
+    margin-right: -10%;
 }
 
 .box-remember-esqueceu_senha a:hover{
@@ -158,6 +159,10 @@ fieldset .button button{
 
 fieldset .new-account{
     position: relative;
+}
+
+.new-account>label{
+    font-size: 14px;
 }
 
 fieldset .new-account a{
